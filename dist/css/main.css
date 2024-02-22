@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-shadow: 3px 3px rgba(129, 25, 226, 0.445);
+}
+
+/* Body */
+
+body {
+    background: url("../imgs/bg2.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Header */
+
+header {
+    background-color: rgba(0, 0, 0, 0.342);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid rgba(100, 24, 163, 0.452);
+}
+
+a {
+    text-decoration: none;
+    transition: .2s color;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+header h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+header h2 a:hover {
+    color: #808080;
+}
+
+/* -- Main -- */
+
+/* Hero */
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(205, 201, 209);
+    height: 50vh;
+    font-size: 40px;
+}
+
+#hero h1 {
+    font-size: 50px;
+}
+
+#hero h2 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+/* Parallax Showcase */
+
+#showcase .information, #showcase .parallax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid #485460;
+}
+
+#showcase .information {
+    height: 150px;
+    background-color: #1e272e;
+    font-size: 25px;
+}
+
+#showcase .parallax {
+    background: url("../imgs/tech.jpg") fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    backdrop-filter: blur(5px);
+    border-top: 2px solid gray;
+}
