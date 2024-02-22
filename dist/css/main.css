@@ -4,48 +4,16 @@
 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
-    text-shadow: 3px 3px rgba(129, 25, 226, 0.445);
 }
 
 /* Body */
 
 body {
-    background: url("../imgs/bg2.jpg") no-repeat center fixed;
+    background: url("../imgs/twdBg2.jpg") no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-/* Header */
-
-header {
-    background-color: rgba(0, 0, 0, 0.342);
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    backdrop-filter: blur(5px);
-    border-bottom: 1px solid rgba(100, 24, 163, 0.452);
-}
-
-a {
-    text-decoration: none;
-    transition: .2s color;
-}
-
-header h1 {
-    text-transform: uppercase;
-}
-
-header h2 {
-    margin-top: 10px;
-    font-size: 18px;
-    font-weight: 300;
-}
-
-header h2 a:hover {
-    color: #808080;
 }
 
 /* -- Main -- */
@@ -58,7 +26,7 @@ header h2 a:hover {
     align-items: center;
     text-align: center;
     color: rgb(205, 201, 209);
-    height: 50vh;
+    height: 100vh;
     font-size: 40px;
 }
 
@@ -71,34 +39,84 @@ header h2 a:hover {
     font-weight: 300;
 }
 
-/* Parallax Showcase */
+/* History Section */
 
-#showcase .information, #showcase .parallax {
+#history .information {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    border-top: 2px solid #485460;
-}
-
-#showcase .information {
-    height: 150px;
     background-color: #1e272e;
-    font-size: 25px;
+    padding: 50px;
+    gap: 100px;
+    border-top: 4px solid #485460;
+    border-bottom: 4px solid #485460;
 }
 
-#showcase .parallax {
-    background: url("../imgs/tech.jpg") fixed;
+#history .information .content {
+    width: 50vw;
+}
+
+#history .rickAndHilltop {
+    background: url("../imgs/twdCharBG3.webp") fixed;
+}
+
+#history .rick {
+    background: url("../imgs/rickGrimes.jpg") fixed;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 0px 200px 0px 200px;
+}
+
+#history .daryl {
+    background: url("../imgs/darylDixon.png") fixed;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 0px 200px 0px 200px;
+}
+
+#history .negan {
+    background: url("../imgs/neganSmith.jpg") fixed;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 0px 200px 0px 200px;
+}
+
+#history .parallax {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 500px;
+    background-repeat: no-repeat;
+    text-shadow: 1px 1px black;
+    height: 600px;
+}
+
+#history span {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+#history h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#history .text-center {
+    text-align: center;
 }
 
 
 /* Footer */
-
 footer {
     display: flex;
     justify-content: center;
